@@ -1,0 +1,8 @@
+@mixin sombras{
+    box-shadow: 0 5px 26px 8px magenta;
+    scale: (1.1);
+}
+
+.sombra_1{
+    @include sombras;
+}

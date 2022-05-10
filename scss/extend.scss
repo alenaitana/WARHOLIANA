@@ -1,0 +1,11 @@
+/* EXTEND */
+
+.estilo_1{
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.estilo_2{
+    @extend .estilo_1;
+    font-size: 3rem;
+}  

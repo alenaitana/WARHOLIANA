@@ -1,0 +1,101 @@
+
+    
+///////* 768px *//////// 
+@media screen and (min-width:768px){
+
+/* INICIO MEDIA SCREEM  */
+    
+
+    .seccion{
+        p{
+            font-size: 1.5rem;
+            text-align: center;
+            }
+
+    }
+    .seccion{
+        .footer{
+            margin-top: 200px;
+            
+        }
+    }
+
+    /* TIENDA MEDIA SCREEM  */
+
+    #contenedor_tienda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+           
+        }
+}
+
+ ///////* 1024px *//////// 
+@media screen and (min-width:1024px){   
+
+    /* INICIO MEDIA SCREEM  */
+    
+
+   .seccion{
+    .formato_p{
+        margin-bottom: 80px;
+   }
+    
+   .logos_footer{
+    margin-top: -40px;
+   }
+}
+
+
+}
+
+///////* 1440px *//////// 
+@media screen and (min-width:1440px){
+
+    /* INICIO MEDIA SCREEM  */
+    
+    .container_1{
+        grid-template-rows: 0.4fr 2fr; 
+    }
+    .seccion{
+        p{
+            .estilos_p{
+                font-size: 3rem;
+                text-align: center;
+            }
+            
+            }
+
+    }
+    .seccion{
+        p{
+           .estilos_p2{
+            @extend .estilos_p;
+            margin-top: 100px;
+            color: magenta;
+        }  
+        }
+       
+    }
+    .seccion{
+        .footer{
+            margin-top: 300px;
+            
+        }
+    }
+    .footer{
+        p{
+            margin-top: 150px;
+            
+        }
+    }
+    
+    /* QUIEN SOY MEDIA SCREEM  */
+
+.container_2{
+    grid-template-rows: 0.4fr 3.5fr;
+}
+}
+
+

@@ -1,0 +1,112 @@
+/* PINTURA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.container_5{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.4fr 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header"
+      "seccion"; 
+  }
+
+header{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    
+        img{
+            width: 250px;
+            margin:20px 0 20px 0;
+            align-items: center;
+
+
+        }
+}
+
+.header {
+    grid-area: header; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion { 
+    width: 100%;
+    grid-area:seccion; 
+    background-image: url(../img/fondo1.jpg);
+    ; 
+}
+
+.contenedor_dibujos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        font-family:'Bebas Neue', cursive;
+            img{
+                    width: 270px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 10px;
+                    box-shadow: 0 0  10px white;
+            }
+}
+
+.flecha_arriba{
+    display: flex;
+    justify-content: end;
+    
+        img{
+            width: 40px;
+            margin-top: 20px;
+        }
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:aquamarine ;
+    margin: 0;
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            font-style: bold;
+            margin-top: 30px;
+        }
+}
+.logos_footer{
+    font-size: 60px;
+
+        a{
+            text-decoration: none;
+            transition: all 200ms ease;
+        }
+        a:hover{
+            opacity: 10px;
+
+        }
+
+}
+
+.logos_footer{
+    a{
+        img{
+            width: 40px;
+        }
+    }
+}
