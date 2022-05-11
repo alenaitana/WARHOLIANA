@@ -8,6 +8,8 @@
 
     .seccion{
         p{
+            margin-top: 130px;
+            margin-bottom: 100px;
             font-size: 1.5rem;
             text-align: center;
             }
@@ -20,15 +22,12 @@
         }
     }
 
-    /* TIENDA MEDIA SCREEM  */
+/* TIENDA MEDIA SCREEM  */
 
-    #contenedor_tienda{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10%;
-           
-        }
+#marginCard{
+    margin-bottom: 20px;
+}
+    
 }
 
  ///////* 1024px *//////// 
@@ -56,26 +55,17 @@
     /* INICIO MEDIA SCREEM  */
     
     .container_1{
-        grid-template-rows: 0.4fr 2fr; 
+        grid-template-rows: 0.4fr 3fr; 
     }
     .seccion{
         p{
-            .estilos_p{
-                font-size: 3rem;
-                text-align: center;
-            }
-            
+            margin-top: 150px;
+            font-size: 3rem;
+            text-align: center;
             }
 
     }
-    .seccion{
-        p{
-           .estilos_p2{
-            @extend .estilos_p;
-            margin-top: 100px;
-            color: magenta;
-        }  
-        }
+
        
     }
     .seccion{
@@ -94,8 +84,8 @@
     /* QUIEN SOY MEDIA SCREEM  */
 
 .container_2{
-    grid-template-rows: 0.4fr 3.5fr;
+    grid-template-rows: 0.4fr 3.8fr;
 }
-}
+
 
 

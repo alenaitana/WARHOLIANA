@@ -4,7 +4,7 @@
     width: 100%;
     display: grid; 
     grid-template-columns: 1fr; 
-    grid-template-rows: 0.4fr 4.8fr; 
+    grid-template-rows: 0.4fr 3fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       "header"
@@ -49,8 +49,8 @@ header{
 
 #contenedor_tienda{
 margin-top: 10%;
-   
 }
+
 .flecha_arriba{
     display: flex;
     justify-content: end;

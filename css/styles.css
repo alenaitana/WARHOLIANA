@@ -11,7 +11,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 1.8fr;
+  grid-template-rows: 0.4fr 1.5fr;
   gap: 0px 0px;
   grid-template-areas: "header" "seccion"; }
 
@@ -40,6 +40,7 @@ header {
     font-size: 3rem;
     margin-top: 20px; }
   .seccion p {
+    margin-top: 70px;
     margin-bottom: 30px;
     font-family: 'Roboto Flex', sans-serif; }
 
@@ -147,7 +148,7 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 4.8fr;
+  grid-template-rows: 0.4fr 3fr;
   gap: 0px 0px;
   grid-template-areas: "header" "seccion"; }
 
@@ -273,8 +274,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aquamarine;
-  margin: 0; }
+  background-color: aquamarine; }
   .footer p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
@@ -446,16 +446,15 @@ header {
 @media screen and (min-width: 768px) {
   /* INICIO MEDIA SCREEM  */
   .seccion p {
+    margin-top: 130px;
+    margin-bottom: 100px;
     font-size: 1.5rem;
     text-align: center; }
   .seccion .footer {
     margin-top: 200px; }
   /* TIENDA MEDIA SCREEM  */
-  #contenedor_tienda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%; } }
+  #marginCard {
+    margin-bottom: 20px; } }
 
 @media screen and (min-width: 1024px) {
   /* INICIO MEDIA SCREEM  */
@@ -467,20 +466,21 @@ header {
 @media screen and (min-width: 1440px) {
   /* INICIO MEDIA SCREEM  */
   .container_1 {
-    grid-template-rows: 0.4fr 2fr; }
-  .seccion p .estilos_p, .seccion p .estilos_p2 {
+    grid-template-rows: 0.4fr 3fr; }
+  .seccion p {
+    margin-top: 150px;
     font-size: 3rem;
-    text-align: center; }
-  .seccion p .estilos_p2 {
-    margin-top: 100px;
-    color: magenta; }
-  .seccion .footer {
-    margin-top: 300px; }
-  .footer p {
-    margin-top: 150px; }
-  /* QUIEN SOY MEDIA SCREEM  */
-  .container_2 {
-    grid-template-rows: 0.4fr 3.5fr; } }
+    text-align: center; } }
+
+.seccion .footer {
+  margin-top: 300px; }
+
+.footer p {
+  margin-top: 150px; }
+
+/* QUIEN SOY MEDIA SCREEM  */
+.container_2 {
+  grid-template-rows: 0.4fr 3.8fr; }
 
 /* EXTEND */
 .estilo_1, .estilo_2 {
