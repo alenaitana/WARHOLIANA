@@ -8,21 +8,31 @@
     
 }
 
+body{
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    min-width: 100vh;
+    flex-wrap: wrap;
+
+}
+
 .container_6{
     width: 100%;
     display: grid; 
     grid-template-columns: 1fr; 
-    grid-template-rows: 0.4fr 2fr; 
+    grid-template-rows: 0.4fr 2fr 0.8fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       "header"
-      "seccion"; 
+      "seccion"
+      "footer"; 
   }
 
 header{
     background-image: url(../img/fondo2.jpg);
     background-size: cover;
-    display: flex;
+    display:flex;
     flex-direction: column;
     
     
@@ -38,7 +48,7 @@ header{
 .header {
     grid-area: header; 
     width: 100%;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -47,15 +57,14 @@ header{
     width: 100%;
     grid-area:seccion; 
     background-image: url(../img/fondo1.jpg);
+
+    P{
+        font-size: 3rem;
+        font-family:'Bebas Neue', cursive; 
+    }
        
 }
 
-.contenedor_contactame{
-
-    textarea{
-        margin-left: -10px ;}
-       
-}
 
 .flecha_arriba{
     display: flex;
@@ -66,13 +75,23 @@ header{
             margin-top: 20px;
         }
 }
+
+footer{
+    background-color: aquamarine;
+    align-self: flex-end;
+    width: 100% ;
+    height: 200px;
+    text-align: center;
+}
+
 .footer{
+    grid-area: header;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:aquamarine ;
-    margin: 0;
+    
 
         p{
             font-family: Arial, Helvetica, sans-serif;
@@ -81,8 +100,9 @@ header{
             margin-top: 30px;
         }
 }
+
 .logos_footer{
-    font-size: 60px;
+    font-size: 20px;
 
         a{
             text-decoration: none;
@@ -92,13 +112,13 @@ header{
             opacity: 10px;
 
         }
-
 }
 
 .logos_footer{
     a{
         img{
             width: 40px;
+            margin: 10px;
         }
     }
 }

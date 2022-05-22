@@ -24,6 +24,11 @@
 
 /* TIENDA MEDIA SCREEM  */
 
+.container_3{
+   grid-template-rows: 0.4fr 3.3fr; 
+}
+
+
 #marginCard{
     margin-bottom: 20px;
 }
@@ -45,8 +50,23 @@
     margin-top: -40px;
    }
 }
+/* TIENDA MEDIA SCREEM  */
 
+.container_3{ 
+    grid-template-rows: 0.4fr 3.8fr; 
+ }
+ 
 
+ /* CONTACTAME MEDIA SCREEM  */
+
+    .contenedor_contactame{
+        .form{
+            width: 80%;
+            height: auto;
+        }
+       
+    }
+    
 }
 
 ///////* 1440px *//////// 
@@ -55,7 +75,7 @@
     /* INICIO MEDIA SCREEM  */
     
     .container_1{
-        grid-template-rows: 0.4fr 3fr; 
+        grid-template-rows: 0.4fr 3 fr; 
     }
     .seccion{
         p{
@@ -66,9 +86,7 @@
 
     }
 
-       
-    }
-    .seccion{
+      .seccion{
         .footer{
             margin-top: 300px;
             
@@ -79,13 +97,28 @@
             margin-top: 150px;
             
         }
+    } 
+    
     }
     
+     /* TIENDA MEDIA SCREEM  */
+
+.container_3{
+ grid-template-rows: 0.4fr 4fr; 
+
+ }
+     
+    
+    
+
     /* QUIEN SOY MEDIA SCREEM  */
 
 .container_2{
-    grid-template-rows: 0.4fr 3.8fr;
+    grid-template-rows: 0.4fr 4fr;
 }
 
+
+    /* CONTACTAME MEDIA SCREEM  */
+    
 
 
